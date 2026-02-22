@@ -88,7 +88,7 @@ The training process follows a two-stage optimization strategy:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 PINN_Fisher_KPP_Equation/
