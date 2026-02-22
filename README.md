@@ -36,6 +36,7 @@ The neural network approximates the solution field:
 $$u(x, y, t) \approx \mathcal{NN}(x, y, t)$$
 
 The total loss function is defined as:
+
 $$\mathcal{L}_{total} = \mathcal{L}_{pde} + \mathcal{L}_{ic} + \mathcal{L}_{bc}$$
 
 Automatic differentiation enables exact computation of first and second-order derivatives required for the diffusion operator, eliminating truncation errors associated with numerical meshes.
