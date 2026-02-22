@@ -96,6 +96,8 @@ PINN_Fisher_KPP_Equation/
 ├── README.md                                       
 ├── Fisher–KPP_Reaction–Diffusion_Equation_PINN.ipynb  
 └── Observation.md
+└── Numerical_interpretation.md
+
 ```                          
 ---
 
