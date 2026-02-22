@@ -88,14 +88,15 @@ The training process follows a two-stage optimization strategy:
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
+```text
 PINN_Fisher_KPP_Equation/
 │
-├── README.md                                      
-├── Fisher–KPP_Reaction–Diffusion_Equation_PINN.ipynb 
-└── Observations.md
-
+├── README.md                                       
+├── Fisher–KPP_Reaction–Diffusion_Equation_PINN.ipynb  
+└── Observation.md
+```                          
 ---
 
 ## Internship Acknowledgment
