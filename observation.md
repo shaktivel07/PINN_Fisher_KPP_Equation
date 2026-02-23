@@ -34,7 +34,10 @@ $$u(t) = \frac{1}{1 + Ce^{-t}}$$
 Using the prescribed initial condition $u(0) = 10$, the constant evaluates to $C = -0.9$. The trained PINN solution was evaluated at the spatial center $(x, y) = (0, 0)$ and compared against this benchmark. 
 
 The **Relative $L^2$ Error** is computed as:
-$$\frac{\|u_{PINN} - u_{exact}\|_2}{\|u_{exact}\|_2}$$
+
+\text{Relative } L_2 \text{ Error} = \frac{\| u_{\text{PINN}} - u_{\text{exact}} \|_2}{\| u_{\text{exact}} \|_2}
+
+
 
 The observed error was significantly small, confirming the correct implementation of automatic differentiation and accurate temporal evolution.
 
